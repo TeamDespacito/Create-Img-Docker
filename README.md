@@ -1,4 +1,4 @@
-# Create-Img-Docker
+# Primeiros passos com a criação de uma imagem DOCKER
 -------------------
 
 **FROM:** Este é o comando mais importante, pois ele especifica a imagem base para a construção de uma nova. Na maioria das vezes a imagem especificada vai ser uma distribuição linux, se essa imagem não for encontrada na máquina local, o docker tentará buscar em algum repository. Caso queira, por exemplo, fazer a build do seu app em GO dentro do container, você vai precisar de uma imagem que tenha o GO instalado e configurado. Outra forma também seria criar diversas instruções com o comando RUN para fazer essa instalação.
